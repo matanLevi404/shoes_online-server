@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="invoice.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box" id="invoiceBody">
+      <div class="heading-section">
+        <div class="title">
+          <div class="invoice"><span>INVOICE</span></div>
+          <div class="brand"><span>shoesOnline</span></div>
+        </div>
+        <div class="sub-title">
+          <div class="bill">
+            <div class="bill-to">BILL TO:</div>
+            <div class="company-name">COMPANY NAME</div>
+            <div class="address"></div>
+          </div>
+          <div class="details">
+            <div class="invoice-details">Invoice Details</div>
+            <div class="invoice-date">Invoice Date:</div>
+            <div class="due-date">Due Date:</div>
+            <div class="invoice-num">Invoice No.:</div>
+          </div>
+        </div>
+      </div>
+      <div class="table-section">
+        <table class="table table-success table-striped">
+          <thead class="col">
+            <tr>
+              <th class="col" scope="col">Item Description</th>
+              <th class="col" scope="col">Unit Price</th>
+              <th class="col" scope="col">Qyt.</th>
+              <th class="col" scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="stats-section">
+        <div class="right">
+          <div class="sub-total">Sub Total:</div>
+          <div class="tax">Tax:</div>
+        </div>
+        <div class="left">
+          <div class="subtotal-price">
+            <span id="subtotal-price"></span>
+          </div>
+          <div class="tax-price"><span>15.00</span></div>
+        </div>
+      </div>
+      <div class="payment-info-section">
+        <div class="grand-total">
+          <div class="payment-info-title">Payment Info:</div>
+          <div class="grand-total-title"><span>GRAND TOTAL:</span></div>
+          <div class="grand-total-price">
+            <span id="grand-total-price"></span>
+          </div>
+        </div>
+        <div class="payment-info">
+          <div class="payment-info-left">
+            <div class="account">Account id:</div>
+            <div class="a/c-name">A/c Name:</div>
+            <div class="bank-details">Credit-Card:</div>
+          </div>
+          <div class="payment-info-right">
+            <div class="customer-info account-id"></div>
+            <div class="customer-info ac_name"></div>
+            <div class="customer-info digits">****-****-****-</div>
+          </div>
+        </div>
+      </div>
+      <div class="terms-conditions-section">
+        <div class="terms">
+          <span class="terms-title">TERMS & CONDITION</span>
+          <span class="terms-details"
+            >Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Ducimus possimus modi, non <br />
+            sequi earum laboriosam doloremque libero sapiente
+          </span>
+        </div>
+        <div class="signature-title"><span>Signature:</span></div>
+      </div>
+      <div class="signature">
+        <img src="/server/invoice/signature.png" alt="" />
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="invoice.js"></script>
+  </body>
+</html>

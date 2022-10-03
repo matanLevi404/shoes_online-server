@@ -1,0 +1,31 @@
+{
+  "client": [
+    {
+      "id": 3,
+      "username": "sharonEll",
+      "name": "sharon",
+      "lastname": "levi",
+      "city": "Rosh HaAying",
+      "street": "Halechi 36"
+    }
+  ],
+  "digits": 1234,
+  "cart": [
+    {
+      "cart_id": 3,
+      "name": "VENTURE RUNNER SUEDE",
+      "brand": "Nike",
+      "amount": 1,
+      "price": 449,
+      "gender": "MEN'S",
+      "size": 45,
+      "color": "black/white",
+      "image": "https://media.shoesonline.co.il/2021/10/VENTURE-RUNNER-SUEDE-Nike-men__CQ4557-001.jpg"
+    }
+  ],
+  "orderId": 51,
+  "orderDate": "2022-05-02T01:01:49.000Z",
+  "dueDate": "2022-04-23",
+  "subTotal": 449,
+  "total": 464
+}

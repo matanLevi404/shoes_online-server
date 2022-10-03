@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 595px;
+  height: 843px;
+  border: 1px solid;
+  background-color: rgb(239, 239, 239);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* HEADING SECTION */
+.heading-section {
+  width: 100%;
+  height: 20%;
+  border: 1px solid;
+}
+
+.title {
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title div {
+  line-height: normal;
+  /* border: 1px solid; */
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.invoice {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.brand {
+  font-size: 25px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+
+.sub-title {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid; */
+}
+
+.sub-title div {
+  width: 52%;
+  /* border: 1px solid; */
+}
+
+.bill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bill-to {
+  font-size: 11px;
+}
+
+.company-name {
+  font-weight: 600;
+}
+
+.address {
+  font-size: 10px;
+  line-height: normal;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details div {
+  width: 52%;
+  /* border: 1px solid; */
+}
+
+.invoice-details {
+  font-weight: 600;
+  font-size: 16.5px;
+  line-height: 1.6;
+}
+
+.invoice-date,
+.due-date,
+.invoice-num {
+  font-size: 11px;
+  line-height: normal;
+}
+
+/* HEADING SECTION */
+
+/* TABLE SECTION */
+.table-section {
+  width: 100%;
+  height: 30%;
+  border-bottom: 1px solid;
+}
+
+.col {
+  background-color: #fff;
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+}
+
+.description div {
+  font-size: 10px;
+}
+
+td {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+}
+
+.mat-header-cell {
+  height: 45px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.mat-cell {
+  background-color: #c9c9c998;
+}
+.mat-header-cell.cdk-header-cell.cdk-column-itemDescriptions.mat-column-itemDescriptions {
+  padding-left: 70px;
+}
+
+.mat-cell.cdk-cell.cdk-column-itemDescriptions.mat-column-itemDescriptions {
+  padding-left: 70px;
+}
+
+/* TABLE SECTION */
+
+/* STATS SECTION */
+.stats-section {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.left {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.left span {
+  margin-left: 10px;
+}
+/* STATS SECTION */
+
+/* PAYMENT INFO */
+.payment-info-section {
+  width: 100%;
+  height: 21%;
+  border-bottom: 1px solid;
+}
+
+.grand-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grand-total-title,
+.grand-total-price {
+  line-height: normal;
+}
+
+.grand-total-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 27%;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.grand-total-price {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.grand-total-price span {
+  margin-left: 10px;
+}
+
+.payment-info-title {
+  width: 36%;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  margin-bottom: 5px;
+}
+
+.payment-info {
+  display: flex;
+  font-weight: 500;
+}
+
+.payment-info-left {
+  margin-left: 65px;
+  width: 16%;
+  line-height: 1.6;
+}
+
+.payment-info-right {
+  width: 30%;
+  line-height: 1.6;
+}
+/* PAYMENT INFO */
+
+/* TERMS AND CONDITIONS SECTION */
+.terms-conditions-section {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+.signature-title {
+  display: flex;
+  align-items: flex-end;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.terms-title {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.terms-details {
+  font-size: 10px;
+}
+
+/* TERMS AND CONDITIONS SECTION */
+
+/* SIGNATURE */
+.signature {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signature img {
+  width: 130px;
+  height: 40px;
+  margin-right: 100px;
+  margin-top: 10px;
+  transform: rotate(-20deg);
+}
+/* SIGNATURE */
