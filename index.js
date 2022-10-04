@@ -7,7 +7,7 @@ require("dotenv").config();
 // inits
 const app = exp();
 const corsOptions = {
-  origin: "http://localhost:4200",
+  origin: "http://localhost:57349",
   credentials: true,
 };
 
